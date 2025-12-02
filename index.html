@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Webpage</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header-content content-wrap">
+        <nav class="header-nav" id="navbar">
+          <a href="#welcome-section" class="nav-link">Home</a>
+          <a href="#welcome-section" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#profile" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="welcome-section scroll-margin" id="welcome-section">
+        <div class="welcome-content content-wrap">
+          <h1 class="welcome-title">Hello, I'm Yevgeniy</h1>
+          <p class="welcome-desc">Future Full Stack Developer passionate about creating beautiful and functional web applications.</p>
+          <div class="welcome-stack">
+            <div class="stack-item html">HTML</div>
+            <div class="stack-item css">CSS</div>
+            <div class="stack-item">JavaScript</div>
+            <div class="stack-item">React</div>
+            <div class="stack-item">Node.js</div>
+            <div class="stack-item">WebPack</div>
+            <div class="stack-item">Git</div>
+          </div>
+        </div>
+      </section>
+      <section class="projects scroll-margin" id="projects">
+        <div class="projects-content content-wrap">
+          <h2 class="projects-title">Projects</h2>
+          <div class="projects-tiles">
+            <div class="project-tile">
+              <img src="./assets/images/project-1.jpg" alt="Survey Form" class="project-img">
+              <div class="project-info">
+                <h3 class="project-title">Survey Form</h3>
+                <p class="project-desc">Customer satisfaction survey form.</p>
+                <div class="project-links">
+                  <a href="https://yevgengvr.github.io/fcc-survey-form/" class="project-link view" target="_blank">View</a>
+                  <a href="https://github.com/yevgengvr/fcc-survey-form" class="project-link source" target="_blank">Source</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-tile">
+              <img src="./assets/images/project-2.jpg" alt="Tribute Page" class="project-img">
+              <div class="project-info">
+                <h3 class="project-title">Tribute Page</h3>
+                <p class="project-desc">Tribute page dedicated to Nils Bohlin - the Swedish engineer who invented the modern three-point seatbelt.</p>
+                <div class="project-links">
+                  <a href="https://yevgengvr.github.io/fcc-tribute-page/" class="project-link view" target="_blank">View</a>
+                  <a href="https://github.com/yevgengvr/fcc-tribute-page" class="project-link source" target="_blank">Source</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-tile">
+              <img src="./assets/images/project-3.jpg" alt="Technical Documentation Page" class="project-img">
+              <div class="project-info">
+                <h3 class="project-title">Technical Documentation Page</h3>
+                <p class="project-desc">A simple technical documentation page inspired by the official React documentation.</p>
+                <div class="project-links">
+                  <a href="https://yevgengvr.github.io/fcc-technical-documentation-page/" class="project-link view" target="_blank">View</a>
+                  <a href="https://github.com/yevgengvr/fcc-technical-documentation-page" class="project-link source" target="_blank">Source</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-tile">
+              <img src="./assets/images/project-4.jpg" alt="Product Landing Page" class="project-img">
+              <div class="project-info">
+                <h3 class="project-title">Product Landing Page</h3>
+                <p class="project-desc">A simple product landing page dedicated to Oculus VR virtual reality headsets.</p>
+                <div class="project-links">
+                  <a href="https://yevgengvr.github.io/fcc-product-landing-page/" class="project-link view" target="_blank">View</a>
+                  <a href="https://github.com/yevgengvr/fcc-product-landing-page" class="project-link source" target="_blank">Source</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-tile">
+              <img src="./assets/images/project-5.jpg" alt="Personal Portfolio Webpage" class="project-img">
+              <div class="project-info">
+                <h3 class="project-title">Personal Portfolio Webpage</h3>
+                <p class="project-desc">A simple product landing page dedicated to Oculus VR virtual reality headsets.</p>
+                <div class="project-links">
+                  <a href="https://yevgengvr.github.io/fcc-personal-portfolio-webpage/" class="project-link view" target="_blank">View</a>
+                  <a href="https://github.com/yevgengvr/fcc-personal-portfolio-webpage" class="project-link source" target="_blank">Source</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="profile scroll-margin" id="profile">
+        <div class="profile-content content-wrap">
+          <div class="profile-text">Welcome to my
+            <a class="profile-link" id="profile-link" href="https://github.com" target="_blank">
+              <svg class="profile-icon" height="28" aria-hidden="true" viewBox="0 0 24 24" version="1.1" width="28">
+                <path
+                  d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z">
+                </path>
+              </svg>GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-content content-wrap">
+        <p class="footer-copyright">© 2025 Yevgeniy Gavrilko | All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
